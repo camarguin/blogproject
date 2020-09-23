@@ -1,0 +1,110 @@
+body {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 100%;
+    min-height: 100vh;
+    margin: 60px;
+}
+
+a {
+    background: rgba(0, 0, 0, 0.9);
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 20px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    padding: 14px;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 350;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+h5 {
+    text-align: left;
+    margin: 20px;
+    padding-top: 0;
+    margin-top: 0;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h6 {
+    font-size: 15px;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: left;
+    margin: 30px;
+    padding: 20px;
+}
+
+a:hover {
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.containerArticle {
+    -webkit-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 1px 30px 0px rgba(50, 50, 50, 0.75);
+    background-color: rgba(250, 250, 250, 0.85);
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px;
+    padding: 30px;
+    font-weight: 100;
+    line-height: 21px;
+}
+
+.containerButtons {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerButtons a {
+    margin: 5px;
+}
+.containerButtons form {
+    float: right;
+}
+
+.containerDelete {
+    position: relative;
+    text-align: right;
+}
+
+.containerDelete form {
+    padding: 20px;
+}
+
+.containerDelete form button {
+    background: rgba(0, 0, 0, 0.9);
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 20px;
+    transition: 1s;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    padding: 15px;
+    text-decoration: none;
+}
